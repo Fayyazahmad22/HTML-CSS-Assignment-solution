@@ -1,0 +1,510 @@
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: black;
+}
+
+div.top-bar {
+	float: left;
+	width: 100%;
+
+	background-color: black;
+	color: white;
+	padding: .3em;
+}
+div.top-bar-left {
+	float: left;
+	padding-left: 3em;
+}
+div.top-bar i {
+	margin: .25em;
+}
+div.phone {
+	float: right;
+	padding-right: 3em;
+}
+div.phone button {
+	background-color: rgb(25, 175, 143);
+	border: none;
+	border-radius: 5px;
+	font-size: 12px;
+	padding: .3em;
+}
+
+div.header {
+	background-color: white;
+}
+div.header img {
+	width: 200px;
+	height: 80px;
+	margin: .5em 0 .5em 3em;
+	float: left;
+}
+div.header ul {
+	float: right;
+	list-style-type: none;
+	padding-top: 2.1em;
+}
+div.header ul li {
+	display: inline;
+	margin-right: 1em;
+	padding-bottom: 2em;
+}
+div.header ul li:hover {
+	border-bottom: 10px solid rgb(25, 175, 143);
+}
+div.banner {
+	clear: both;
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+div.banner img {
+	width: 100%;
+	height: 350px;
+}
+div.banner h2 {
+	position: absolute;
+	top: 80px;
+	left: 25%;
+
+	color: white;
+	font-size: 4em;
+	font-weight: bolder;
+}
+.banner-p {
+	position: absolute;
+	top: 140px;
+
+	text-align: center;
+	margin: 2em 14em 0 14em;
+	font-size: 1em;
+	color: white;
+}
+.banner-b {
+	position: absolute;
+	top: 250px;
+	left: 45%;
+	color: black;
+	background-color: rgb(25, 175, 143);
+	padding: .5em 2em .5em 2em;
+	border: none;
+	border-radius: 10px;
+}
+h1.main-h {
+	text-align: center;
+	font-weight: bolder;
+	margin-top: 1em;
+	letter-spacing: .08em;
+}
+span.green {
+	color: rgb(25, 175, 143);
+}
+.main-p {
+	text-align: center;
+	margin: 1em 15em 2em 15em;
+}
+div.intro-icons {
+	display: inline;
+	float: left;
+	margin-left: 2.5em;
+	text-align: center;
+	margin-bottom: 2em;
+}
+div.intro-icons i {
+	background-color: rgb(243, 237, 237);
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 130px;
+	vertical-align: middle;
+	color: rgb(25, 175, 143);
+}
+.intro-icons h3 {
+	margin-top: 1.2em;
+	text-align: center;
+}
+.intro-icons p {
+	font-size: .8em;
+	text-align: center;
+}
+div.about-us {
+	position: relative;
+	text-align: center;
+}
+div.about-us img {
+	width: 100%;
+	height: 400px;
+	z-index: -1;
+}
+div.about-us h2 {
+	position: absolute;
+	top: 7.2em;
+	left: 40%;
+	text-align: center;
+	color: black;
+	font-size: 3em;
+	font-weight: bolder;
+}
+div.about-us p {
+	position: absolute;
+	top: 33em;
+	left: 5%;
+	width: 50%;
+	text-align: center;
+	font-size: .8em;
+	color: rgb(25, 175, 143);
+	letter-spacing: .07em;
+}
+div.about-us button {
+	position: absolute;
+	top: 37em;
+	left: 10%;
+	margin-top: 2.5em;
+	background-color: rgb(25, 175, 143);
+	padding: .5em;
+	width: 15%;
+	border-radius: 10px;
+}
+div.services {
+	margin-bottom: 2em;
+	overflow: auto;
+}
+.services-h2 {
+	text-align: center;
+	margin-top: .7em;
+	font-size: 3em;
+	font-weight: bolder;
+}
+.services-p {
+	text-align: center;
+	font-size: .8em;
+	color: rgb(172, 169, 169);
+}
+div.card {
+	float: left;
+	margin: 0 .8em 0 .8em;
+	background-color: rgb(240, 239, 239);
+	padding: 8px 5px 8px 5px;
+	text-align: center;
+}
+.card-tiltle {
+	font-size: 1em;
+	font-weight: bold;
+}
+.card-text {
+	font-size: .7em;
+}
+
+div.portfolio {
+	clear: both;
+	overflow: auto;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 1em 3em 3em 3em;
+}
+.portfolio-h2 {
+	font-size: 3em;
+	padding: 1em;
+	font-weight: bolder;
+}
+.portfolio-p {
+	margin: -3em 23em 1em 23em;
+	font-size: .8em;
+}
+.portfolio-ul {
+	list-style-type: none;
+	margin: 0 10em 0 10em;
+}
+.portfolio-ul li {
+	display: initial;
+	margin-left: .8em;
+}
+.portfolio-ul li:hover {
+	color: orange;
+}
+.portfolio img {
+	width: 160px;
+	height: 150px;
+	float: left;
+	background-color: black;
+}
+div.images {
+	margin: .5em 10em 1em 10em;
+}
+.packages img {
+	width: 100%;
+}
+div.our-process {
+	clear: both;
+	background-color: white;
+	margin-top: 1em;
+}
+.our-process-h2 {
+	font-size: 3em;
+	font-weight: bolder;
+	padding-top: 1em;
+	text-align: center;
+}
+.our-process-p {
+	font-size: .8em;
+	text-align: center;
+	margin: .5em 30em .5em 30em;
+}
+.overlaps {
+	position: relative;
+}
+.overlaps .abs {
+	position: absolute;
+	background-color: yellow;
+	color: red;
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	text-align: center;
+	line-height: 50px;
+	vertical-align: middle;
+	top: -35px;
+	transform: translateX(220%);
+}
+.process-i-style {
+	float: left;
+	margin-left: 5.5em;
+	background-color: rgb(243, 237, 237);
+	width: 110px;
+	height: 110px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 130px;
+	vertical-align: middle;
+}
+.process-i-style i {
+	color: rgb(25, 175, 143);
+}
+.our-process-h3 {
+	font-size: 1em;
+	font-weight: 500;
+	text-align: center;
+}
+.our-process-p1 {
+	font-size: .7em;
+	text-align: center;
+	line-height: 1em;
+}
+.people {
+	overflow: auto;
+	clear: both;
+	margin-top: 20em;
+	text-align: center;
+	background-color: rgb(243, 242, 242);
+}
+.people h2 {
+	font-size: 3em;
+	margin-top: 1em;
+	font-weight: bolder;
+	text-align: center;
+}
+.people-p1 {
+	font-size: .8em;
+	text-align: center;
+	margin: 1em 20em 1em 20em;
+}
+
+div.persons {
+	display: inline;
+	float: left;
+	margin-left: 0em;
+	text-align: center;
+	width: 50%;
+	margin-bottom: 0em;
+	padding: 1em 3em 1em 3em;
+}
+.bg-colors {
+	background-color: rgb(243, 242, 242);
+}
+div.persons i {
+	background-color: white;
+	width: 110px;
+	height: 110px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 110px;
+	vertical-align: middle;
+	float: left;
+	color: rgb(25, 175, 143);
+}
+.float-r {
+	float: right;
+}
+
+.people-h3 {
+	margin-bottom: 0.2em;
+	margin-top: .5em;
+	text-align: left;
+	margin-left: 5em;
+}
+.people-p {
+	vertical-align: bottom;
+	font-size: .6em;
+	text-align: left;
+	margin-left: 15em;
+}
+.person-lt {
+	border-right: 2px solid grey;
+}
+.person-lb {
+	border-top: 2px solid grey;
+}
+.person-rb {
+	border-top: 2px solid grey;
+	border-left: 2px solid grey;
+}
+
+.skills {
+	clear: both;
+	overflow: auto;
+	background-color: white;
+}
+.skills-h2 {
+	font-size: 3em;
+	font-weight: boder;
+	margin-top: 1em;
+	text-align: center;
+}
+.skills-p {
+	text-align: center;
+	margin: .5em 28em .5em 28em;
+	font-size: .8em;
+}
+
+.new-project {
+	clear: both;
+	margin-top: 2em;
+	overflow: auto;
+	background-color: rgb(25, 175, 143);
+	color: white;
+}
+.new-project-h2 {
+	font-size: 3em;
+	font-weight: bolder;
+	margin-top: 1em;
+	text-align: center;
+}
+
+.new-project-form {
+	margin: 1em 8em 1em 8em;
+	align-items: center;
+}
+.form-input {
+	padding: .5em 1.2em .5em .5em;
+	color: rgb(167, 167, 167);
+	border-radius: 5px;
+}
+.new-project-form .button {
+	margin-left: 2em;
+	padding: .5em 1.2em .5em 1.2em;
+	background-color: orange;
+	border-radius: 10px;
+	font-size: 1em;
+	font-weight: 600;
+}
+.new-project-p {
+	font-size: .8em;
+	text-align: center;
+	margin: 3em 20em 3em 20em;
+}
+.contacts {
+	clear: both;
+	overflow: auto;
+	background-color: white;
+}
+.contacts-h2 {
+	font-size: 3em;
+	font-weight: bolder;
+	margin-top: 1em;
+	text-align: center;
+}
+.contacts-p {
+	text-align: center;
+	font-size: 1.2em;
+}
+.contacts-p i {
+	margin-left: 2em;
+	margin-right: .8em;
+	color: rgb(25, 175, 143);
+}
+.mapouter {
+	width: 100%;
+}
+.footer {
+	overflow: auto;
+	clear: both;
+	background-color: #668e19;
+	margin-top: 1em;
+	color: white;
+	padding: 2em;
+}
+.sec-1 {
+	float: left;
+
+	width: 25%;
+}
+.left-img {
+	align-items: center;
+	margin-top: 3em;
+}
+.sec-1-p {
+	font-size: .9em;
+	text-align: left;
+	padding: 2em;
+}
+.sec-1-h3 {
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+.sec-2 {
+	float: left;
+	width: 25%;
+	border-right: 2px solid white;
+}
+.sec-2-h2,
+.sec-3-h2,
+.sec-4-h2 {
+	font-size: 2em;
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 1.5em;
+}
+.sec-2 a,
+.sec-3 a {
+	color: white;
+	display: block;
+	text-align: left;
+	margin-left: 4em;
+	line-height: 2.2em;
+}
+.sec-3 {
+	float: left;
+	width: 25%;
+	border-right: 2px solid white;
+}
+p.icons-1 {
+	display: block;
+	margin-left: 4em;
+	text-align: center;
+	margin-left: 3em;
+}
+.fa-x {
+	text-align: center;
+	margin-left: 1em;
+	display: inline-block;
+}
+.menu a {
+	text-decoration: none;
+	color: black;
+}
